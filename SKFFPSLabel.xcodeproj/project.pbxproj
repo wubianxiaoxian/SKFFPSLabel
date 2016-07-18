@@ -10,11 +10,11 @@
 		1D95E0011D3C9F94007C3FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0001D3C9F94007C3FFA /* main.m */; };
 		1D95E0041D3C9F94007C3FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0031D3C9F94007C3FFA /* AppDelegate.m */; };
 		1D95E0071D3C9F94007C3FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0061D3C9F94007C3FFA /* ViewController.m */; };
-		1D95E00A1D3C9F94007C3FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D95E0081D3C9F94007C3FFA /* Main.storyboard */; };
 		1D95E00C1D3C9F94007C3FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D95E00B1D3C9F94007C3FFA /* Assets.xcassets */; };
 		1D95E00F1D3C9F94007C3FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D95E00D1D3C9F94007C3FFA /* LaunchScreen.storyboard */; };
 		1D95E01A1D3C9F94007C3FFA /* SKFFPSLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0191D3C9F94007C3FFA /* SKFFPSLabelTests.m */; };
 		1D95E0251D3C9F94007C3FFA /* SKFFPSLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0241D3C9F94007C3FFA /* SKFFPSLabelUITests.m */; };
+		1D95E0341D3C9FCF007C3FFA /* SKFFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0331D3C9FCF007C3FFA /* SKFFPSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		1D95E0031D3C9F94007C3FFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D95E0051D3C9F94007C3FFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1D95E0061D3C9F94007C3FFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1D95E0091D3C9F94007C3FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D95E00B1D3C9F94007C3FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D95E00E1D3C9F94007C3FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D95E0101D3C9F94007C3FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		1D95E0201D3C9F94007C3FFA /* SKFFPSLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFFPSLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D95E0241D3C9F94007C3FFA /* SKFFPSLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFFPSLabelUITests.m; sourceTree = "<group>"; };
 		1D95E0261D3C9F94007C3FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D95E0321D3C9FCF007C3FFA /* SKFFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFFPSLabel.h; sourceTree = "<group>"; };
+		1D95E0331D3C9FCF007C3FFA /* SKFFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFFPSLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,8 @@
 				1D95E0031D3C9F94007C3FFA /* AppDelegate.m */,
 				1D95E0051D3C9F94007C3FFA /* ViewController.h */,
 				1D95E0061D3C9F94007C3FFA /* ViewController.m */,
-				1D95E0081D3C9F94007C3FFA /* Main.storyboard */,
+				1D95E0321D3C9FCF007C3FFA /* SKFFPSLabel.h */,
+				1D95E0331D3C9FCF007C3FFA /* SKFFPSLabel.m */,
 				1D95E00B1D3C9F94007C3FFA /* Assets.xcassets */,
 				1D95E00D1D3C9F94007C3FFA /* LaunchScreen.storyboard */,
 				1D95E0101D3C9F94007C3FFA /* Info.plist */,
@@ -245,7 +247,6 @@
 			files = (
 				1D95E00F1D3C9F94007C3FFA /* LaunchScreen.storyboard in Resources */,
 				1D95E00C1D3C9F94007C3FFA /* Assets.xcassets in Resources */,
-				1D95E00A1D3C9F94007C3FFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D95E0071D3C9F94007C3FFA /* ViewController.m in Sources */,
+				1D95E0341D3C9FCF007C3FFA /* SKFFPSLabel.m in Sources */,
 				1D95E0041D3C9F94007C3FFA /* AppDelegate.m in Sources */,
 				1D95E0011D3C9F94007C3FFA /* main.m in Sources */,
 			);
@@ -308,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1D95E0081D3C9F94007C3FFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D95E0091D3C9F94007C3FFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1D95E00D1D3C9F94007C3FFA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -16,6 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSLog(@"测试在Dev 修改信息");
     // Override point for customization after application launch.
     return YES;
 }
